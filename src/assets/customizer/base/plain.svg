@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <rect width="1200" height="1200" fill="none"/>
+  <!-- Shirt body -->
+  <rect x="420" y="360" width="360" height="520" rx="28" ry="28" fill="#ffffff" stroke="#d1d5db" stroke-width="4"/>
+</svg>
+

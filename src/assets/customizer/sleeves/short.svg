@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <rect width="1200" height="1200" fill="none"/>
+  <!-- Left sleeve short -->
+  <polygon points="420,400 350,480 420,480" fill="#ffffff" stroke="#d1d5db" stroke-width="4"/>
+  <!-- Right sleeve short -->
+  <polygon points="780,400 850,480 780,480" fill="#ffffff" stroke="#d1d5db" stroke-width="4"/>
+</svg>
+

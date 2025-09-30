@@ -1,0 +1,271 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Classic White Dress Shirt",
+      "description": "A timeless white dress shirt made from premium cotton. Perfect for business and formal occasions.",
+      "price": 89.99,
+      "originalPrice": 120.00,
+      "category": "shirts",
+      "subcategory": "dress-shirts",
+      "brand": "SuitSupply",
+      "images": [
+        "/images/products/shirt-white-1.jpg",
+        "/images/products/shirt-white-2.jpg",
+        "/images/products/shirt-white-3.jpg"
+      ],
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "colors": ["white", "light-blue", "pink"],
+      "materials": ["100% Cotton"],
+      "care": "Machine wash cold, hang dry",
+      "inStock": true,
+      "stockQuantity": 50,
+      "isFeatured": true,
+      "rating": 4.5,
+      "reviewCount": 128,
+      "tags": ["classic", "business", "formal"],
+      "customizable": true,
+      "customizationOptions": {
+        "collar": [
+          { "id": "classic", "name": "Classic Collar", "price": 0, "image": "/images/customizations/collar-classic.png" },
+          { "id": "spread", "name": "Spread Collar", "price": 5, "image": "/images/customizations/collar-spread.png" },
+          { "id": "button-down", "name": "Button Down", "price": 0, "image": "/images/customizations/collar-button-down.png" }
+        ],
+        "cuffs": [
+          { "id": "barrel", "name": "Barrel Cuffs", "price": 0, "image": "/images/customizations/cuffs-barrel.png" },
+          { "id": "french", "name": "French Cuffs", "price": 10, "image": "/images/customizations/cuffs-french.png" }
+        ],
+        "buttons": [
+          { "id": "white-pearl", "name": "White Pearl", "price": 0, "image": "/images/customizations/buttons-white-pearl.png" },
+          { "id": "mother-pearl", "name": "Mother of Pearl", "price": 15, "image": "/images/customizations/buttons-mother-pearl.png" },
+          { "id": "gold", "name": "Gold", "price": 20, "image": "/images/customizations/buttons-gold.png" }
+        ],
+        "pockets": [
+          { "id": "none", "name": "No Pocket", "price": 0, "image": "/images/customizations/pocket-none.png" },
+          { "id": "chest", "name": "Chest Pocket", "price": 0, "image": "/images/customizations/pocket-chest.png" }
+        ],
+        "sleeves": [
+          { "id": "short", "name": "Short Sleeve", "price": 0, "image": "/images/customizations/sleeves-short.png" },
+          { "id": "long", "name": "Long Sleeve", "price": 0, "image": "/images/customizations/sleeves-long.png" }
+        ]
+      },
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Navy Blue Suit",
+      "description": "A sophisticated navy blue suit perfect for business meetings and formal events.",
+      "price": 599.99,
+      "originalPrice": 799.99,
+      "category": "suits",
+      "subcategory": "business-suits",
+      "brand": "SuitSupply",
+      "images": [
+        "/images/products/suit-navy-1.jpg",
+        "/images/products/suit-navy-2.jpg",
+        "/images/products/suit-navy-3.jpg"
+      ],
+      "sizes": ["36", "38", "40", "42", "44", "46", "48", "50"],
+      "colors": ["navy", "charcoal", "black"],
+      "materials": ["100% Wool"],
+      "care": "Dry clean only",
+      "inStock": true,
+      "stockQuantity": 25,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviewCount": 89,
+      "tags": ["business", "formal", "navy"],
+      "customizable": false,
+      "createdAt": "2024-01-10T10:00:00Z",
+      "updatedAt": "2024-01-10T10:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Chino Pants - Khaki",
+      "description": "Comfortable and versatile khaki chino pants perfect for casual and smart-casual looks.",
+      "price": 79.99,
+      "originalPrice": 99.99,
+      "category": "pants",
+      "subcategory": "chinos",
+      "brand": "SuitSupply",
+      "images": [
+        "/images/products/pants-khaki-1.jpg",
+        "/images/products/pants-khaki-2.jpg"
+      ],
+      "sizes": ["28", "30", "32", "34", "36", "38", "40"],
+      "colors": ["khaki", "navy", "olive", "black"],
+      "materials": ["98% Cotton, 2% Elastane"],
+      "care": "Machine wash cold, tumble dry low",
+      "inStock": true,
+      "stockQuantity": 75,
+      "isFeatured": false,
+      "rating": 4.3,
+      "reviewCount": 156,
+      "tags": ["casual", "chino", "versatile"],
+      "customizable": false,
+      "createdAt": "2024-01-05T10:00:00Z",
+      "updatedAt": "2024-01-05T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Polo Shirt - Classic Fit",
+      "description": "A classic polo shirt made from premium pique cotton. Perfect for casual and smart-casual occasions.",
+      "price": 49.99,
+      "originalPrice": 69.99,
+      "category": "shirts",
+      "subcategory": "polo-shirts",
+      "brand": "SuitSupply",
+      "images": [
+        "/images/products/polo-classic-1.jpg",
+        "/images/products/polo-classic-2.jpg"
+      ],
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "colors": ["white", "navy", "black", "red", "green"],
+      "materials": ["100% Cotton Pique"],
+      "care": "Machine wash cold, tumble dry low",
+      "inStock": true,
+      "stockQuantity": 100,
+      "isFeatured": false,
+      "rating": 4.4,
+      "reviewCount": 203,
+      "tags": ["casual", "polo", "classic"],
+      "customizable": false,
+      "createdAt": "2024-01-01T10:00:00Z",
+      "updatedAt": "2024-01-01T10:00:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Wool Blazer - Charcoal",
+      "description": "A sophisticated charcoal wool blazer that can be dressed up or down for any occasion.",
+      "price": 399.99,
+      "originalPrice": 549.99,
+      "category": "blazers",
+      "subcategory": "wool-blazers",
+      "brand": "SuitSupply",
+      "images": [
+        "/images/products/blazer-charcoal-1.jpg",
+        "/images/products/blazer-charcoal-2.jpg",
+        "/images/products/blazer-charcoal-3.jpg"
+      ],
+      "sizes": ["36", "38", "40", "42", "44", "46", "48", "50"],
+      "colors": ["charcoal", "navy", "black"],
+      "materials": ["100% Wool"],
+      "care": "Dry clean only",
+      "inStock": true,
+      "stockQuantity": 30,
+      "isFeatured": true,
+      "rating": 4.6,
+      "reviewCount": 67,
+      "tags": ["blazer", "wool", "sophisticated"],
+      "customizable": false,
+      "createdAt": "2024-01-12T10:00:00Z",
+      "updatedAt": "2024-01-12T10:00:00Z"
+    }
+  ],
+  "categories": [
+    { "id": 1, "name": "Shirts", "slug": "shirts", "parentId": null, "image": "/images/categories/shirts.jpg" },
+    { "id": 2, "name": "Suits", "slug": "suits", "parentId": null, "image": "/images/categories/suits.jpg" },
+    { "id": 3, "name": "Pants", "slug": "pants", "parentId": null, "image": "/images/categories/pants.jpg" },
+    { "id": 4, "name": "Blazers", "slug": "blazers", "parentId": null, "image": "/images/categories/blazers.jpg" },
+    { "id": 5, "name": "Dress Shirts", "slug": "dress-shirts", "parentId": 1, "image": "/images/categories/dress-shirts.jpg" },
+    { "id": 6, "name": "Polo Shirts", "slug": "polo-shirts", "parentId": 1, "image": "/images/categories/polo-shirts.jpg" },
+    { "id": 7, "name": "Business Suits", "slug": "business-suits", "parentId": 2, "image": "/images/categories/business-suits.jpg" },
+    { "id": 8, "name": "Chinos", "slug": "chinos", "parentId": 3, "image": "/images/categories/chinos.jpg" },
+    { "id": 9, "name": "Wool Blazers", "slug": "wool-blazers", "parentId": 4, "image": "/images/categories/wool-blazers.jpg" }
+  ],
+  "sizes": [
+    { "id": 1, "name": "XS", "category": "shirts" },
+    { "id": 2, "name": "S", "category": "shirts" },
+    { "id": 3, "name": "M", "category": "shirts" },
+    { "id": 4, "name": "L", "category": "shirts" },
+    { "id": 5, "name": "XL", "category": "shirts" },
+    { "id": 6, "name": "XXL", "category": "shirts" },
+    { "id": 7, "name": "28", "category": "pants" },
+    { "id": 8, "name": "30", "category": "pants" },
+    { "id": 9, "name": "32", "category": "pants" },
+    { "id": 10, "name": "34", "category": "pants" },
+    { "id": 11, "name": "36", "category": "suits" },
+    { "id": 12, "name": "38", "category": "suits" },
+    { "id": 13, "name": "40", "category": "suits" },
+    { "id": 14, "name": "42", "category": "suits" },
+    { "id": 15, "name": "44", "category": "suits" },
+    { "id": 16, "name": "46", "category": "suits" },
+    { "id": 17, "name": "48", "category": "suits" },
+    { "id": 18, "name": "50", "category": "suits" }
+  ],
+  "colors": [
+    { "id": 1, "name": "White", "hex": "#FFFFFF", "category": "neutral" },
+    { "id": 2, "name": "Black", "hex": "#000000", "category": "neutral" },
+    { "id": 3, "name": "Navy", "hex": "#1E3A8A", "category": "blue" },
+    { "id": 4, "name": "Charcoal", "hex": "#374151", "category": "neutral" },
+    { "id": 5, "name": "Khaki", "hex": "#F0E68C", "category": "neutral" },
+    { "id": 6, "name": "Light Blue", "hex": "#93C5FD", "category": "blue" },
+    { "id": 7, "name": "Pink", "hex": "#F9A8D4", "category": "pink" },
+    { "id": 8, "name": "Red", "hex": "#DC2626", "category": "red" },
+    { "id": 9, "name": "Green", "hex": "#16A34A", "category": "green" },
+    { "id": 10, "name": "Olive", "hex": "#84CC16", "category": "green" }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "password": "$2b$10$rQZ8K9vQZ8K9vQZ8K9vQZ8K9vQZ8K9vQZ8K9vQZ8K9vQZ8K9vQZ8K9vQ",
+      "phone": "+1234567890",
+      "isVerified": true,
+      "createdAt": "2024-01-01T10:00:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 2,
+          "price": 89.99,
+          "customizations": {
+            "collar": "spread",
+            "cuffs": "french",
+            "buttons": "mother-pearl",
+            "pockets": "chest",
+            "sleeves": "long"
+          }
+        }
+      ],
+      "totalAmount": 179.98,
+      "status": "delivered",
+      "shippingAddress": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "billingAddress": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "paymentMethod": "credit_card",
+      "createdAt": "2024-01-20T10:00:00Z",
+      "updatedAt": "2024-01-22T10:00:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 1,
+      "rating": 5,
+      "title": "Excellent quality",
+      "comment": "Great shirt, fits perfectly and looks professional.",
+      "createdAt": "2024-01-25T10:00:00Z"
+    }
+  ]
+}
